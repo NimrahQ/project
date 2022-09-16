@@ -1,0 +1,422 @@
+@media (max-width: 1440px){
+  .input-group{
+    display: none;
+  }
+}
+@media (max-width: 1024px){
+  .navbar .navbar-collapse{
+    padding-right: 0;
+    padding-top: 1rem;
+}
+  .input-group{
+    display: none;
+  }
+  .top-nav .registration{
+    margin-right: 0 !important;
+  }
+  .top-nav .social-links span {
+    margin: 0 !important;
+  }
+  .techer-of-month .content a {
+    width: 42%;
+    border: none;
+    padding: 10px 1rem;
+}
+
+  .course-section .label-4 span {
+    right: 10%;
+    left: 74%;
+    top: -27px;
+  }
+  .wrapper .item .content{
+    width: 178px;
+  }
+  .wrapper .item .content {
+    padding: 1.5rem 0.8rem 3rem;
+  }
+  .wrapper .item .new-h1 {
+    font-size: 18px;
+}
+
+  /* ------------------top courses--------------------- */
+  .label-3 span{
+    top: 30%;
+  }
+  .label-1 span{
+    left: 66%;
+  }
+  .label-4 span{
+    right: 15%;
+    left: 71%;
+    top: 30%;
+
+  }
+  /* -------------------parallex--------------- */
+  .parallax .container .row{
+    padding: 0 0 3rem 0;
+  }
+  /* ----------------------------teacher of month------------------- */
+  .techer-of-month .inner-content {
+    padding: 4rem 0 1rem 2rem;
+  }
+  .techer-of-month .hedng{
+    margin-left: 1rem;
+    font-size: 18px;
+  }
+  .techer-of-month .techer-card{
+    padding: 2rem 0;
+
+  }
+/* ----------------------------subscribtion-------------------- */
+
+.subscibtion .content{
+  flex-direction: column;
+  align-items: center;
+}
+.subscibtion .inner-content-2 {
+  position: relative;
+  right: 26%;
+}
+.subscibtion .search-container button {
+  width: 34%;
+}
+/* ----------------------blog-------------------- */
+.blog .poster{
+  padding: 7px 3px 5px;
+  font-size: 9px;
+}
+.blog .short-margin {
+  left: 45%;
+}
+/* ---------------------footer-------------------- */
+.footer{
+  height: 600px;
+}
+.main{
+  margin-bottom: 600px;
+}
+}
+
+@media (max-width: 991px){
+    .navbar{
+        background-color: #fff;
+       padding-bottom: 10px;
+
+    }
+    .collapse{
+
+        background-color: #f8f9fa;
+        border-top: 1px solid rgb(170, 170, 170);
+        margin-top: 1rem;
+    }
+    
+    .navbar ul{
+       font-size: 20px;
+       padding: 10px;
+    }
+    .navbar-nav{
+       
+        font-family: montserrat-regular;
+      
+    }
+    .navbar-nav li{
+        padding: 10px 20px;
+       border-bottom: 1px solid rgb(202, 202, 202);
+    }
+    .nav-link{
+        color: rgb(54, 50, 50);
+        font-size: 1rem;
+    }
+    .navbar .short-margin{
+      display: none;
+    } 
+    /* ------------------------------------carousel section-------------------------- */
+    .carousel-inner h1{
+      font-size: 45px;
+
+    }
+    .carousel-inner h2{
+      font-size:60px;
+
+    }
+    /* ----------------scroll section---------------- */
+  .wrapper{
+    overflow-x: auto;
+    justify-content: start;
+  }
+  .wrapper .item{
+    padding: 1rem 0;
+  }
+  .wrapper .item .content{
+    width: 250px;
+  }
+  .wrapper .item .content {
+    margin: 0 .3rem;
+  }
+  /* ---------------------parallex------------------- */
+
+  .parallax-content .h1{
+    font-size: 30px;
+    
+  }
+  .parallax .container .row {
+    padding: 0 0 5rem 0;
+  }
+  .parallax-content .h2{
+    font-size: 14px;
+    
+  }
+  /* -
+}-----------------------------teacher of month-------------------------- */
+  .bg-2{
+    background: none;
+  }
+  .techer-of-month .course-card img{
+    height: 180px;
+  }
+  .techer-of-month .content a {
+    width: 31%;
+  }
+  /* ----------------subscription--------------------- */
+
+  .subscibtion .container{
+    flex-direction: column;
+}
+  .subscibtion .search-container{
+    float: none;
+  }
+  /* ----------------------------teacher of month------------------- */
+  .techer-of-month .techer-card{
+    padding:2rem 0 !important;
+  }
+  .techer-of-month .hedng{
+    margin-left: 4rem;
+  }
+  /* ----------------------subscribtion--------------------- */
+  .subscibtion .inner-content-2 {
+    position: relative;
+    right: 18%;
+  }
+}
+
+@media (max-width:768px){
+ 
+
+  .techer-of-month .content a {
+    text-decoration: none;
+    width: 34%;
+    border: none;
+   
+}
+  .techer-of-month {
+    padding: 0;
+  }
+  .techer-of-month .label-1 span {
+    left: 73%;
+}
+.techer-of-month .inner-content {
+  padding: 1rem 5rem;
+}
+  .main{
+    margin-bottom: 0;
+  }
+  .footer{
+    position: relative;
+    height: auto;
+  }
+  .footer .col-md-6{
+    margin-bottom: 1rem;
+  }
+  .blog .blog-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .blog .col-4{
+    max-width: 65.333333%;
+  }
+  .blog .poster {
+    padding: 11px 9px 8px;
+    font-size: 13px;
+  }
+  .blog .short-margin{
+    left: 46%;
+  }
+/* .footer
+ 
+} */
+}
+@media (max-width:425px){
+  .techer-of-month .content a {
+    width: 58%;
+    border: none;
+   
+}
+  .techer-of-month .label-1 span {
+    left: 80%;
+}
+  .blog .font-courses-h1 {
+    font-size: 31px;
+}
+.blog .short-margin {
+  left: 40%;
+}
+.blog .col-4 {
+  max-width: 100.333333%;
+}
+.blog .poster {
+  padding: 11px 5px 8px;
+  font-size: 13px;
+  line-height: 14px;
+}
+  .footer .col-md-6{
+    margin-bottom: 2rem;
+  }
+  .footer .first-sec{
+    padding-left: 1rem;
+  }
+  .slider .navbar .container{
+    padding: 0 10px;
+  }
+  .carousel-inner h1 {
+    font-size: 43px;
+}
+.carousel-inner h2 {
+  font-size: 53px;
+}
+
+.label-3 span{
+  top: 50%;
+  right: 18%;
+  left: 70%;
+}
+.label-4 span {
+  right: 13%;
+  left: 77%;
+  top: 53%;
+}
+.wrapper {
+  margin-left: 0;
+}
+.course-section .label-1 span {
+  left: 79%;
+}
+/* ---------------------------------------- */
+.parallax-content .h1 {
+  padding: 2rem;
+}
+.parallax-content .h2{
+  padding: 0 2rem;
+}
+/* -------------------------------------------- */
+.techer-of-month .hedng{
+  margin-left: 1rem;
+}
+
+.techer-of-month .inner-content {
+  padding: 0 2rem;
+}
+.techer-of-month .techer-card{
+  margin-left: 0;
+ margin-right: 0;
+}
+/* --------------------------------- */
+
+.subscibtion .content button{
+  width: 27%;
+}
+.subscibtion .inner-content {
+  padding-right: 1rem;
+}
+.subscibtion .inner-content-2 {
+  position: relative;
+  right: 0;
+}
+.subscibtion input[type=text] {
+  padding: 11px 65px 11px 7px;
+}
+}
+@media (max-width:375px){
+  .techer-of-month .content a {
+    width: 66%;
+    border: none;
+   
+}
+  .techer-of-month .label-1 span {
+    left: 78%;
+}
+  .blog .poster {
+    padding: 12px 5px 8px;
+    font-size: 11px;
+    line-height: 14px;
+}
+.subscibtion input[type=text] {
+  padding: 11px 50px 11px 7px;
+}
+.subscibtion .inner-content-2 {
+  position: relative;
+  left: 4%;
+}
+  .footer .first-sec{
+    padding-left: 2rem;
+  }
+  
+}
+@media (max-width:320px){
+  .top-nav .nav-content{
+    padding-left: 0;
+  }
+  .top-nav .social-links{
+    margin-right: 3px !important;
+  } 
+  .top-nav .registration{
+    margin-right: 0 !important;
+  }
+  .navbar .search{
+    display: none;
+  }
+  .carousel-inner h1 {
+    font-size: 36px;
+}
+.carousel-inner h2 {
+    font-size: 42px;
+    line-height: 2.7rem !important;
+}
+.course-section .label-1 span {
+  left: 74%;
+}
+  .techer-of-month .label-1 span {
+    left: 73%;
+}
+.techer-of-month .content a {
+  width: 79%;
+  border: none;
+  padding: 10px 1rem;
+}
+  .subscibtion input[type=text] {
+    padding: 11px 6px 11px 7px;
+  }
+  .subscibtion .inner-content-2 {
+    position: relative;
+    left: 6%;
+  }
+  .search-container button {
+    padding: 15px 9px;
+    font-size: 15px;
+  }
+  .subscibtion .content button {
+    width: 26%;
+}
+  .blog .font-courses-h1 {
+    font-size: 26px;
+}
+.blog .short-margin {
+  left: 36%;
+}
+.blog .poster {
+  padding: 12px 3px 8px;
+  font-size: 9px;
+  line-height: 12px;
+}
+}

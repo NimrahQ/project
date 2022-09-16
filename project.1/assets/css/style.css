@@ -1,0 +1,902 @@
+
+.font-family{
+    font-family: "Open Sans,Montserrat";
+}
+@font-face{
+    font-family: "open-sans-semi";
+    src: url(../font/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf);
+}
+@font-face{
+    font-family: "Open-Sans";
+    src:url(../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:  "Montserrat-light";
+    src: url(../font/static/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-black ;
+    src: url(../font/static/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: Montserrat-regular;
+    src: url(../font/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(../font/static/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: montserrat-medium;
+    src: url(../font/static/Montserrat-Medium.ttf);
+}
+.Montserrat-light{
+    font-family:  Montserrat-light;
+}
+.Montserrat-medium{
+    font-family: montserrat-medium;
+}
+.Montserrat-bold{
+    font-family:  Montserrat-bold;
+}
+.Montserrat-regular{
+    font-family: Montserrat-regular;
+}
+.Montserrat-light{
+    font-family: Montserrat-light;
+}
+.Open-sans{
+    font-family: "Open-Sans";
+}
+.Open-semi{
+    font-family: "open-sans-semi";
+}
+a{
+    text-decoration: none;
+}
+/* ------------------sidebar first section------------------------- */
+
+.carousel-item{
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    animation: animate 16s ease-in-out infinite;
+}
+.carousel-inner{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+    top: -85px;
+}
+.outer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.outer h1{
+    line-height: 3.4rem;
+}
+/* .........header.......... */
+/* .collapse{
+    background-color:rgb(187, 187, 187);
+} */
+
+.navbar{
+    padding: 13px 0 0 0;
+}
+/* .navbar .fa-magnifying-glass{
+    border: 2px solid white;
+    padding: 8px;
+} */
+.navbar .fa-heart{
+    font-size: 22px;
+}
+.top-nav .social-links span{
+    margin:0 4px;
+}
+.top-nav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+.top-nav .drop{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  .top-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 155px;
+    z-index: 1000;
+    border-radius: 2px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  .top-nav .dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .top-nav .dropdown-content a:hover{
+    background-color: #e5e2e2;
+    color: #eab830 ;
+  }
+/* ------------------------search bar styling------------------------------ */
+.navbar .search{
+    position: relative;
+    top: -6px;
+    border: 2px solid white;
+    width: 38px;
+    height: 37px;
+    margin-left: 8px;
+}
+.navbar .search span{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0rem;
+    transition: all .25s cubic-bezier(.66,.36,.17,.91);
+    
+}
+.navbar .search:hover{
+    border: 2px solid #eab830;
+}
+.navbar .search span:hover{
+    
+    color: white;
+    transition:all .25s cubic-bezier(.66,.36,.17,.91);
+    width: 100%;
+    background-color:#eab830 ;
+}
+/* .navbar .fa-magnifying-glass:hover{
+    color: white;
+    background:#eab830 ;
+   
+
+} */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 1rem;
+}
+.navbar .search  .fa-magnifying-glass {
+    margin: 5px 0 0 -7px;
+}
+.navbar .fa-magnifying-glass{
+    color: white;
+    
+}
+.navbar .fa-magnifying-glass:hover{
+    color: white;
+    z-index: 1;
+}
+.navbar-expand-lg .navbar-nav .search a {
+    padding: 4px 1rem;
+}
+.navbar-nav .input-group{
+    padding:  0;
+    
+}
+.navbar-nav .input-group input{
+    height: 3rem;
+}
+/* ---------------------------search bar in responsivr sizes----------------------- */
+.input-group .btn{
+    border-radius: none;
+    border: none;
+}
+
+.navbar .short-margin {
+    left: 16%;
+    position: absolute;
+    background-color: #eab830;
+    width: 62px;
+    height: 2px;
+    margin: 3px 0;
+}
+/* .navbar .navbar-collapse{
+    padding-right: 1rem;
+} */
+.navbar .short-margin i {
+    font-size: 11px;
+    position: absolute;
+    bottom: -3px;
+    left: 30px;
+    color: #eab830;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.navbar .dropdown-menu{
+    border-top: 2px solid  #eab830;
+    top: 60%;
+    min-width: 11rem;
+}
+.navbar .dropdown-item {
+    padding: 7px 1.5rem;
+}
+
+/* ------------------------------------------------------- */
+.navbar .demo .site-menu{
+    list-style-type: none;
+}
+/* ..............header end............... */
+/* \.......top navbar............\ */
+ .top-bar-content{
+ 
+     display: flex;
+     justify-content: end;
+     align-items: center;
+ }
+
+ .fa-twitter, .fa-instagram , .fa-behance , .fa-dribbble ,
+ .fa-linkedin, .fa-flickr , .fa-git , .fa-pinterest , .log , .reg{
+    margin-left: 4px;
+ }
+
+ .fa-twitter:hover, .fa-instagram:hover , .fa-behance:hover , .fa-dribbble:hover ,
+ .fa-linkedin:hover , .fa-flickr:hover , .fa-git:hover , .fa-pinterest:hover , .log:hover , .reg:hover{
+    color : #eab830 ;
+ }
+
+ /* -------------------header------------------ */
+ .nav-link:hover{
+    color : #eab830 ;
+
+ }
+ /* first page center text */
+.text-content{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* ------------------------------first section end--------------------------------- */
+/* .overlap{
+  padding: 4rem 0;
+    position: relative;
+    bottom: 16rem;
+} */
+
+/* .card-content{
+    padding: 10px 9px 25px;
+    border-radius: 10px;
+    margin: 0 6px;
+   
+  
+} */
+/* .card-content:hover{
+    transform: translateY(-17px);
+} */
+/* --------------------------scollbar---------------------- */
+
+.wrapper{
+    position: relative;
+    bottom: 11rem;
+    display: flex;
+    margin-bottom: -6rem;
+    justify-content:space-between;
+}
+
+.wrapper .item{
+    width: auto;
+    
+}
+.wrapper .item .content{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+   width: 207px;
+   padding: 1.5rem 1.8rem 3rem;
+    /* padding: 15px 10px 35px; */
+    border-radius: 10px;
+    text-align: center;
+  
+   
+}
+/* .content-card{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.wrapper .item .content:hover{
+    transform: translateY(-17px);
+}
+/* -----------------------card section end------------------------ */
+/* -------------------top courses------------------------------ */
+/* ------------------small label of scroll bar------------------- */
+.course-section{
+    padding-bottom: 4rem;
+}
+
+.card-1{
+    margin-bottom: 2rem;
+}
+.label-1 span{
+    position: absolute;
+    border-radius: 3px;
+    left: 70%;
+    top: 6%;
+    padding: 3px;
+}
+.course-section .progress{
+    position: relative;
+    height: 5px;
+    overflow: visible;
+}
+.progress-bar{
+ background-color: #1db874 !important;
+}
+
+.course-section .label-2 span{
+    position: absolute;
+    right: 1px;
+    bottom: 10px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 19px;
+    background-color: #1db874
+
+}
+.course-section .label-2 span::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 5px 0;
+    border-color: transparent #1db874 transparent transparent;
+}
+/* --------------------row one col two styling--------------- */
+.label-3 span{
+    position: absolute;
+    right: 15%;
+    left: 71%;
+    bottom: 12px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 19px;
+    background-color: #1db874
+
+}
+.label-3 span::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 5px 0;
+    border-color: transparent #1db874 transparent transparent;
+}
+.label-4 span{
+    position: absolute;
+    right: 10%;
+    bottom: 12px;
+    left: 79%;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 19px;
+    background-color: #1db874
+
+}
+.label-4 span::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 5px 0;
+    border-color: transparent #1db874 transparent transparent;
+}
+
+/* -------------------------card that show on hover----------------------------- */
+.sub-card{
+    position: absolute;
+    z-index: 9;
+    left: -15px;
+  transition: 0.5s all;
+    display: none;
+    width:auto;
+  padding: 10px 5px;
+    background-color: #fff;
+    box-shadow:2px 2px 25px 10px rgb(187, 192, 194);
+
+}
+.card-1:hover .sub-card {
+    display: block;
+}
+/* ------------------------------card inside content sub card-content styling------------ */
+
+.hover-content{
+    list-style-type: none;
+}
+.hover-content li{
+    background-color: transparent;
+    border: none;
+}
+.sub-card-contents .list-group{
+    margin-bottom: 2rem;
+}
+.hover-content li{
+  padding:0 13px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+/* _____________________________________________parallax________________________________________ */
+
+.parallax{
+   
+    background-image: url("../img/school-achievment/achivements-1919x999\ \(1\).jpg");
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    min-height: 650px;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.parallax .parallax-content {
+    padding:6rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  
+}
+.count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.counter{
+   
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/* --------------------------------techer of month----------------------------- */
+.techer-of-month  .content{
+   padding-top: 3rem;
+}
+/* .progress-bar{
+    position: relative;
+}
+.progress-bar .label-2{
+    position: ;
+}  */
+.techer-of-month .content a {
+    text-decoration: none;
+    width: 40%;
+    border: none;
+    padding: 10px 2rem;
+}
+    
+    
+.techer-of-month{
+   padding-top: 2rem;
+    background-image: url(../img/teacher-of-month/teacher_bg.jpg);
+  
+   background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg-2{
+    background-repeat: no-repeat;
+    background-image: url(../img/teacher-of-month/featured_classic_teacher_1.png);
+    background-size: contain;
+    background-position: 100% 0%;
+    
+
+}
+.techer-of-month .inner-content{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;  
+  
+}
+.techer-of-month .inner-content .para{
+    line-height: 1.8rem;
+}
+.techer-of-month .card-body{
+    background-color: #fff;
+}
+
+.progress{
+    position: relative;
+    height: 5px;
+    overflow: visible;
+}
+.techer-of-month .progress-bar{
+ background-color: #1db874 !important;
+}
+
+.techer-of-month .label-2 span{
+    position: absolute;
+    right: 1px;
+    bottom: 10px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 19px;
+    background-color: #1db874
+}
+.techer-of-month  .label-2 span::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 5px 0;
+    border-color: transparent #1db874 transparent transparent;
+}
+/* ------------------------------subscibtion--------------------------------------------------- */
+.subscibtion{
+    padding: 4rem 0 ;
+}
+
+.custom-file-label {
+    border: none;
+    border-radius: none;
+    height: 2.5rem;
+
+}
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "SUBSCRIBE";
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.custom-file-label::after {
+    color: #fff;
+     background-color: #273044;
+    height: 3rem;
+    padding: 0.55rem 1.7rem;
+   
+}
+
+  .subscibtion p{
+      line-height: 1.5rem;
+     
+
+  }
+
+  /* --------------------------------blog------------------------------------------- */
+  .blog{
+    padding: 5rem 0 ;
+  }
+  .blog .heading{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .blog-content{
+      padding-top: 4rem;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .blog .card-body{
+      padding: 1rem 0;
+  }
+  .blog .card-body a{
+      text-decoration: none;
+  }
+  .blog .card-body .col-2{
+      padding-right: 0;
+  }
+
+  .short-margin{
+    left: 48%;
+    position: absolute;
+    background-color: #eab830 ;
+    width: 77px;
+    height: 4px;
+    margin: 15px 0;
+}
+.short-margin i{
+    font-size: 19px;
+    position: absolute;
+    bottom: -3px;
+    left: 32px;
+    color:  #eab830 ;
+
+}
+
+/* .short-margin::after{
+    content: "";
+  z-index: 15;
+    position: absolute;
+
+} */
+  .blog .card{
+      border: none;
+  }
+  .blog-img{
+    
+    position: relative;
+  }
+  .blog-img img{
+      width: 100%;
+  }
+  .overlay-img{
+      
+      width: 100%;
+      display: none;
+      height: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 4;
+  
+}
+.overlay-img a{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+
+} 
+.overlay-img a .fa-plus{
+  
+    padding: 0 6px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.blog-img:hover .overlay-img{
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.t-d{
+    border: 2px solid #eab830 ;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3px;
+}
+.date{
+    font-size:1.5rem;
+}
+.month{
+    font-size: 0.8rem;
+}
+.short-separator{
+    background-color: #2c75e4;
+    width: 31px;
+    height: 3px;
+    margin: 15px 0;
+}
+.poster{
+    padding: 7px 7px 5px;
+    position: absolute;
+    left:0;
+    color: #fff;
+    line-height: 0.7rem;
+    font-size: 10px;
+    margin: 6px 15px;
+    text-transform: uppercase;
+
+}
+.poster::after{
+    z-index: 10;
+    content: "";
+  
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 13px 13px;
+    border-color: transparent   transparent  #ffffff transparent ;
+    /* content: "";
+    display: block;
+    position: absolute;
+    width: 2px;
+    border-width: 0 0 0px 0px;
+    border-style: solid;
+    height: 5px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+    border-color: transparent transparent rgb(112, 96, 96); */
+}
+/* ---------------------------main is a layout of whole class----------------------- */
+.main{
+    position: relative;
+    z-index: 15;
+    margin-bottom: 450px;
+    background-color: #fff;
+}
+/* --------------------footer----------------------- */
+.footer{
+    padding: 4rem 0;
+    width:100%;
+    position: fixed;
+    background-color: #273044;
+    height: 450px;
+    bottom: 0;
+}
+
+.footer .col-lg-3 li{
+    margin-bottom: 10px;
+   
+}
+
+.footer ul{
+    list-style-type: none;
+}
+.footer .thrd-sec a{
+    padding-bottom: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer .thrd-sec a:hover{
+    color: #eab830;
+} 
+.sec-sec a{
+    color: #fff;
+    text-decoration: none;
+}
+.sec-sec a:hover{
+    color: #eab830;
+}
+.thrd-sec ul li i{
+    color: #eab830;
+    font-size: 10px;
+    padding-right: 7px;
+}
+.contents ul li i{
+    font-size: 17px;
+    padding-right: 20px;
+    color: gray;
+}
+/* ------------------------------------------------------------------------------------------------- */
+ .btn-primary{
+    background-color:  #385bce;
+   
+}
+.sub-card-contents .btn-primary:hover{
+    background-color: #2dc7b2;
+    border-color: #2dc7b2;
+}
+.sub-card-contents .fa-gratipay:before{
+    color: red;
+}
+/* .sub-card-contents .fa-gratipay:focus{
+    color: rgb(43, 38, 38);
+} */
+/* -------------------/* background colors of dections */
+/* top-nav */
+.background-main{
+    background-color: #2c75e4;
+}
+/* service cards */
+.background-card-1{
+    background-color:  #eab830;
+}
+.background-card-2{
+    background-color:  #307ad5;
+}
+.background-card-3{
+    background-color:  #1ec1d9;;
+}
+.background-card-4{
+    background-color:  #10c45c;;
+}
+.background-card-5{
+    background-color:  #d94da6;;
+}
+.bg-course-hover-button{
+background-color:  #385bce;
+}
+
+/* -------------------/* font colors--------------------------- */
+.color-main{
+    color: #273044;
+}
+/* use in count section */
+.color-primary-1{
+    color: #eab830;
+}
+/* use in colt anand section  */
+.color-primary-2{
+    color: #333;
+}
+.color-primary-3{
+    color: #fff;
+}
+.color-primary-4{
+    color: #385bce;
+}
+.color-primary-5{
+    color: rgb(177, 177, 177);
+}
+ /* it use in header or header button//  or school achievent text in count// or colt anand section button also in blog para also in footer courses/ */
+.font-header{
+    font-size: 14px;
+}
+/* its also use in school achievement section for count */
+.font-header-h1{
+    font-size: 50px;
+}
+.font-header-h2{
+    font-size: 70px;
+}
+/* also use in colt anand teacher-bio's blog section also in footer heading*/
+.font-header-h3{
+    font-size: 18px;
+}
+/* also use in courses section last card in price tag also in footer course pare or pages */
+.font-topbar{
+    font-size: 12px;
+}
+/* our courses fonts also use in school achievement h1 section and also use in blog h1*/
+.font-courses-h1{
+    font-size: 36px;
+}
+/* use of post term and or for top course and colt section also in blog as labels also in footer p and footer contact*/
+.font-courses-single-term{
+    font-size: 13px;
+}
+/* also use in blog as month */
+.font-courses-post{
+    font-size: 11px;
+}
+/* paragraph and also use in free tag in top courses and also in colt section and also new subscribtion section para */
+.font-courses-h5{
+    font-size: 15px;
+}
+
+/*an other section school achievements also use in colt anand*/
+.font-school-p{
+    font-size: 16px;
+}
+
+/* colt anand */
+.colt-h1{
+    font-size: 60px;
+}
+/* new subscribs */
+.new-h1{
+    font-size: 19px;
+}
+/* blog */
+.blog-sec-date{
+    font-size: 24px;
+}

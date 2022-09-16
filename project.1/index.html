@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>classic LMS-MasterStudy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media.css">
+</head>
+
+<body>
+  <div class="main" style="z-index:12;">
+    <nav class="background-card-2 color-primary-3 font-topbar text-capitalize py-2">
+      <div class="top-nav container pb-2 ">
+        <div class="row">
+          <div class="nav-content col-12 clearfix">
+            <div class="float-left">
+              <div class="dropdown">
+                <a class="drop">English<i class="fa-solid fa-angle-down ml-2"></i></a>
+                <div class="dropdown-content">
+                  <a href="#">Deutsch</a>
+                  <a href="#">Italian</a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="english float-left</div> -->
+            <div class=" float-right d-flex">
+              <div class="contact mr-4 d-none d-lg-block">
+                <i class="fa-solid fa-phone-flip "></i>
+                <span>+1 212-226-3126</span>
+              </div>
+
+              <div class="address  mr-3  d-none d-lg-block">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>1010 Moon ave, New York, NY US</span>
+              </div>
+
+              <div class="timings  mr-4  d-none d-lg-block">
+                <i class="fa-solid fa-clock-five"></i>
+                <span>Mon - Sat 8.00 - 18.00</span>
+              </div>
+
+              <div class="social-links  mr-4">
+              
+                <span class="d-none d-lg-inline"><i class="fa-brands fa-twitter "></i></span>
+                <span class=""><i class="fa-brands fa-instagram"></i></span>
+                <span class="d-none d-lg-inline"><i class="fa-brands fa-behance  "></i></span>
+                <span class="d-none d-lg-inline"><i class="fa-brands fa-dribbble "></i></span>
+                <span class="d-none d-lg-inline"><i class="fa-brands fa-flickr"></i></span>
+                <span class="d-none d-lg-inline"><i class="fa-brands fa-git "></i></span>
+                <span><i class="fa-brands fa-linkedin "></i></span>
+                <span><i class="fa-brands fa-pinterest"></i></span>
+              </div>
+
+              <div class="registration mr-4">
+                <span class="log"> <i class="fa-solid fa-user mr-1"></i>Demo instructor</span>
+                <span class="ml-2">|</span> <span class="ml-1 reg">log out</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="slider">
+      <!-------------------------header------------------------------------>
+     
+        <nav class="navbar navbar-expand-lg" style=" width: 100%; z-index: 1;">
+          <div class="container">
+          <a href="#" class="d-block d-sm-block d-md-block d-lg-none d-xl-none "><img
+              src="./assets/img/logo/MasterStudy6logo.svg" alt=""></a>
+          <a href="#" class="d-md-none d-none d-sm-none d-lg-block d-xl-block"> <img
+              src="./assets/img/logo/MasterStudy6logo-1.svg" alt="error"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon color-primary-1"><i class="fa-solid fa-bars fa-2x"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav Montserrat-bold font-header text-uppercase ">
+              <li class="nav-item">
+                <a class="nav-link color-primary-3" href="#">courses <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link color-primary-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-expanded="false">
+                  course formats
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-primary-3" href="#">add course</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="demo active nav-link dropdown-toggle color-primary-3" href="#" id="navbarDropdown2"
+                  role="button" data-toggle="dropdown" aria-expanded="false">
+                  demos
+                </a>
+                <div class="short-margin ">
+                  <i class="fa-solid fa-caret-up"></i>
+                </div>
+                <div class="dropdown-menu  Montserrat-light  text-capitalize">
+                  <a class="dropdown-item font-header" href="#">udmey affiliate</a>
+                  <a class="dropdown-item font-header " href="#">light LMS</a>
+                  <a class="dropdown-item font-header " href="#">Course Hub</a>
+                  <a class="dropdown-item font-header " href="#">cooking courses</a>
+                  <!-- <div class="dropdown-divider"></div> -->
+                  <a class="dropdown-item font-header " href="#">dark RMS</a>
+                  <a class="dropdown-item font-header " href="#">offline courses</a>
+                  <a class="dropdown-item font-header " href="#">online acadmey</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-primary-3" href="#">Pages</a>
+              </li>
+              <li class="d-lg-inline d-xl-inline d-md-none d-none d-sm-none">
+                <a href="#" class="color-primary-3 nav-link"> <i class="fa-regular fa-heart"></i></a>
+              </li>
+
+              <li class="search d-none d-md-none d-sm-none d-lg-block d-xl-block">
+                <span><a href="#" class="color-primary-3 nav-link"><i
+                      class="fa-solid fa-magnifying-glass"></i></a></span>
+              </li>
+              <li class="input-group d-block d-lg-none d-xl-none  ">
+                <div class="d-flex">
+                  <input type="text" class="form-control" placeholder="Search..." aria-label="Search"
+                    aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary background-card-1 nav-link" type="button"
+                      id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+
+      
+
+      <div class="slides">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url(./assets/img/header/slide1-1919x793.jpg);">
+              <div class="text-content text-center container Montserrat-bold">
+                <div class="row ">
+                  <div class="col-lg-12 ">
+                    <h1 class="color-primary-1  font-header-h1 text-uppercase " style="line-height: 2.5rem;">take the
+                      first step</h1>
+                  </div>
+                  <div class="col-12">
+                    <h2 class="color-primary-3 font-header-h2 text-uppercase" style="line-height: 3.7rem;">to knowledge
+                      with us</h2>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-outline-light rounded-pill py-3 px-5" style="margin-top: 1.5rem;"><span
+                        style="font-size: 18px;">ready to get started?</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--================first setion end============-->
+    <!--..................card sections after first section...................-->
+
+    <div class="container wrapper">
+      <div class="item">
+        <div class="content  background-card-1">
+          <a href="#" class="color-primary-3" style="font-size: 50px;"><i class="fa-solid fa-chart-bar"></i></a>
+          <span class="color-primary-3 new-h1 text-capitalize Montserrat-medium">analysis of algorithms</span>
+        </div>
+      </div>
+
+      <div class="item ">
+        <div class="content  background-card-2">
+          <a href="#" class="color-primary-3" style="font-size: 50px;"><i class="fa-solid fa-chart-bar"></i></a>
+          <span class="color-primary-3 new-h1 text-capitalize Montserrat-medium">Enviromental science</span>
+        </div>
+      </div>
+
+      <div class="item  ">
+        <div class="content background-card-3">
+          <a href="#" class="color-primary-3" style="font-size: 50px;"><i class="fa-solid fa-chart-bar"></i></a>
+          <div class="color-primary-3 new-h1 text-capitalize Montserrat-medium">graphic & web-design</div>
+        </div>
+      </div>
+
+      <div class="item ">
+        <div class="content background-card-4">
+          <a href="#" class="color-primary-3" style="font-size: 50px;"><i class="fa-solid fa-chart-bar"></i></a>
+          <span class="color-primary-3 new-h1 text-capitalize Montserrat-medium">economics & finance</span>
+        </div>
+      </div>
+
+      <div class="item ">
+        <div class="content background-card-5">
+          <a href="#" class="color-primary-3" style="font-size: 50px;"><i class="fa-solid fa-chart-bar"></i></a>
+          <span class="color-primary-3 new-h1 text-capitalize Montserrat-medium">software training</span>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------third section------------------------->
+    <div class="course-section container ">
+      <div class="course-content mb-5">
+        <span class="text-uppercase color-main font-courses-h1 Montserrat-bold">top courses</span>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------end here hover card----------------------------- -->
+          <div class="course-card">
+            <div>
+              <!-- -----------------image styling section------------------ -->
+              <div class="label-1">
+                <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                  SPECIAL
+                </span>
+              </div>
+              <img src="./assets/img/courses/cathryn-lavery-67852-unsplash-272x161.jpg" class="card-img-top" alt="...">
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="label-2">
+                    <span>100%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------------------------------card 2 of first row------------------------- -->
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-- ---------------card open on hover-------------------------- -->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------end here hover card----------------------------- -->
+          <div class="course-card">
+            <div>
+              <!-- -----------------image styling section------------------ -->
+              <img src="./assets/img/courses/jakob-owens-198234-unsplash-min-1-272x161.png" class="card-img-top"
+                alt="...">
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="label-3">
+                    <span>87%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 text-capitalize Montserrat-bold color-main">how to work with legendary REd camera?</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left"></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------third col of first row------------------- -->
+
+
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-- ---------------card open on hover-------------------------- -->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------end here hover card----------------------------- -->
+          <div class="course-card">
+            <div>
+              <!-- -----------------image styling section------------------ -->
+              <img src="./assets/img/courses/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" class="card-img-top"
+                alt="...">
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="label-4">
+                    <span>90%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+        <!------------------------****fourth col of first row*****----------------------------------->
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-------------------image styling section-------------------->
+              <div class="label-1">
+                <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                  SPECIAL
+                </span>
+              </div>
+              <img src="./assets/img/courses/cathryn-lavery-67852-unsplash-272x161.jpg" class="card-img-top" alt="...">
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="label-2">
+                    <span>100%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------end here hover card----------------------------- -->
+          <div class="course-card">
+            <div>
+              <!-- -----------------image styling section------------------ -->
+              <div class="label-1">
+                <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                  SPECIAL
+                </span>
+              </div>
+              <img src="./assets/img/courses/photo-1475452779376-caebfb988090-272x161.jpeg" class="card-img-top"
+                alt="...">
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------------card 2 of first row--------------------------->
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-------------------image styling section-------------------->
+              <img src="./assets/img/courses/victor-freitas-572863-unsplash-1-1-1-272x161.png" class="card-img-top"
+                alt="...">
+
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 text-capitalize Montserrat-bold color-main">how to work with legendary REd camera?</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left"></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!-----------------------------------------third col of first row--------------------->
+
+
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-------------------image styling section-------------------->
+
+              <img src="./assets/img/courses/evie-shaffer-501641-unsplash-scaled-272x161.jpg" class="card-img-top"
+                alt="...">
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="label-4">
+                    <span>90%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+        <!------------------------****fourth col of first row*****----------------------------------->
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-------------------image styling section-------------------->
+              <div class="label-1">
+              </div>
+              <img src="./assets/img/courses/photo-1475452779376-caebfb988090-272x161.jpeg" class="card-img-top"
+                alt="...">
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="label-2">
+                    <span>100%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-- ---------------card open on hover-------------------------- -->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-------------------image styling section-------------------->
+              <div class="label-1">
+                <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                  SPECIAL
+                </span>
+              </div>
+              <img src="./assets/img/courses/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg" class="card-img-top"
+                alt="...">
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------------card 2 of first row--------------------------->
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-- -----------------image styling section------------------ -->
+              <img src="./assets/img/courses/msbasics-272x161.png" class="card-img-top" alt="...">
+
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 text-capitalize Montserrat-bold color-main">how to work with legendary REd camera?</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left"></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!-----------------------------------------third col of first row--------------------->
+
+
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-------------------image styling section-------------------->
+      
+              <img src="./assets/img/courses/photo-1491897554428-130a60dd4757-272x161.jpeg" class="card-img-top"
+                alt="...">
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+        <!------------------------****fourth col of first row*****----------------------------------->
+        <div class="card-1 col-lg-3  col-md-4 col-sm-8">
+          <!-----------------card open on hover---------------------------->
+          <div class="sub-card">
+            <div class="sub-card-contents p-4">
+              <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                  style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                  style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+              <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education theme
+              </p>
+              <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span class="pl-1">Advanced</span>
+                </li>
+                <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                    lectures</span></li>
+                <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                    hours</span></li>
+              </ul>
+              <button class="btn btn-primary btn-block py-3"><span
+                  class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+              <div class="bottom-content clearfix mt-3">
+                <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                      class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                <p class="float-right Montserrat-bold"><span>Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------end here hover card------------------------------->
+          <div class="course-card">
+            <div>
+              <!-------------------image styling section-------------------->
+              <div class="label-1">
+              </div>
+              <img src="./assets/img/courses/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" class="card-img-top"
+                alt="...">
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="label-2">
+                    <span>100%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+            <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms</p>
+            <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+            <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+              <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i class="fa-solid fa-clock"></i><span
+                  class="card-inner-content pl-1">2 hours</span></p>
+              <p class="float-right  Montserrat-bold color-main">Free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--------------------------------row2-------------------------------------->
+
+    <!----------------------------parallex--------------------------------->
+
+    <div class="parallax">
+      <div class="overlay">
+        <div class="parallax-content container">
+          <span class="h1 font-courses-h1 color-primary-3 Montserrat-bold py-3">SCHOOL ACHIEVEMENTS</span>
+          <span class="h2 font-school-p color-primary-3 Montserrat-medium ">Here you can review some statistics about
+            our Education Center</span>
+
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="count col-xl-3 col-md-6 col-sm-12">
+              <a href=""><i class="fa-solid fa-earth-americas fa-4x color-primary-3"></i></a>
+              <div class="counter color-primary-1" data-target="9455"></div>
+              <span class="ont-school-p  color-primary-3 Montserrat-medium">FOREIGN FOLLOWERS</span>
+            </div>
+            <div class="count  col-xl-3 col-md-6  col-sm-12">
+              <a href=""><i class="fa-regular fa-bell fa-4x color-primary-3"></i></a>
+              <div class="counter color-primary-1" data-target="1123"></div>
+              <span class="ont-school-p  color-primary-3 Montserrat-medium">CLASSES COMPLETE</span>
+            </div>
+            <div class="count  col-xl-3 col-md-6 col-sm-12">
+              <a href=""><i class="fa-regular fa-user fa-4x color-primary-3"></i></a>
+              <div class="counter color-primary-1" data-target="2678"></div>
+              <span class="ont-school-p  color-primary-3 Montserrat-medium">STUDENTS ENROLLED</span>
+            </div>
+            <div class="count col-xl-3 col-md-6 col-sm-12">
+              <a href=""><i class="fa-regular fa-address-book fa-4x color-primary-3"></i></a>
+              <div class="counter color-primary-1" data-target="37"></div>
+              <span class="ont-school-p  color-primary-3 Montserrat-medium">STUDENTS ENROLLED</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------------colt anand section--------------------------- -->
+    <div class="techer-of-month container-fluid">
+
+      <div class="content container">
+        <div class="bg-2 ">
+          <div class="row w-100">
+            <div class="inner-content col-lg-6 col-md-12">
+              <a href="#" class="text-uppercase btn-primary mb-4"><span class="font-header  Montserrat-bold">techer of
+                  month</span></a>
+              <span class="color-primary-2 font-header-h1 Montserrat-bold mb-2">Colt Anand</span>
+              <span class="color-primary-2 Montserrat-medium font-header-h3 my-1">Professor of Business
+                Administration</span>
+              <span class="para color-primary-2 Montserrat-medium font-school-p my-2">Isn't days fill, after him bring.
+                Set likeness meat seed whose for itself you can't seas itself. Herb replenish he, dry he. Firmament
+                their. Thing had.Fruit morning signs years. All earth fowl upon, doesn't make, grass seed kind bearing
+                multiply female void bring second.</span>
+
+            </div>
+          </div>
+
+          <span class="hedng color-primary-2 Montserrat-bold">TEACHER COURSES:</span>
+
+          <div class="techer-card row d-flex justify-content-center py-5">
+            <div class="card-1 col-lg-3 col-md-5 col-sm-12">
+              <!-- ---------------card open on hover-------------------------- -->
+              <div class="sub-card">
+                <div class="sub-card-contents p-4">
+                  <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                      style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                      style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+                  <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education
+                    theme</p>
+                  <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                    <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span
+                        class="pl-1">Advanced</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                        lectures</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                        hours</span></li>
+                  </ul>
+                  <button class="btn btn-primary btn-block py-3"><span
+                      class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+                  <div class="bottom-content clearfix mt-3">
+                    <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                          class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                    <p class="float-right Montserrat-bold"><span>Free</span></p>
+                  </div>
+                </div>
+              </div>
+              <!-- -------------------------end here hover card----------------------------- -->
+              <div class="course-card">
+                <div>
+                  <!-- -----------------image styling section------------------ -->
+                  <div class="label-1">
+                    <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                      SPECIAL
+                    </span>
+                  </div>
+                  <img src="./assets/img/courses/jakob-owens-198234-unsplash-min-1-272x161.png" class="card-img-top"
+                    alt="...">
+                  <div class="progress" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="label-2">
+                        <span>100%
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207); ">
+                <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms
+                </p>
+                <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+                <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+                  <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i
+                      class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2 hours</span></p>
+                  <p class="float-right  Montserrat-bold color-main">Free</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-1 col-lg-3 col-md-5 col-sm-12">
+              <!-- ---------------card open on hover-------------------------- -->
+              <div class="sub-card">
+                <div class="sub-card-contents p-4">
+                  <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                      style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                      style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+                  <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education
+                    theme</p>
+                  <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                    <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span
+                        class="pl-1">Advanced</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                        lectures</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                        hours</span></li>
+                  </ul>
+                  <button class="btn btn-primary btn-block py-3"><span class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+                  <div class="bottom-content clearfix mt-3">
+                    <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                          class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                    <p class="float-right Montserrat-bold"><span>Free</span></p>
+                  </div>
+                </div>
+              </div>
+              <!-- -------------------------end here hover card----------------------------- -->
+              <div class="course-card">
+                <div>
+                  <!-- -----------------image styling section------------------ -->
+                  <div class="label-1">
+                    <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                      SPECIAL
+                    </span>
+                  </div>
+                  <img src="./assets/img/courses/photo-1461749280684-dccba630e2f6-272x161.jpeg" class="card-img-top"
+                    alt="...">
+                  <div class="progress" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="label-2">
+                        <span>100%
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+                <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms
+                </p>
+                <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+                <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+                  <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i
+                      class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2 hours</span></p>
+                  <p class="float-right  Montserrat-bold color-main">Free</p>
+                </div>
+              </div>
+            </div>
+            <!-----------------------------------------2nd card-------------------------------------->
+            <div class="card-1 col-lg-3 col-md-5 col-sm-12">
+              <!-----------------card open on hover---------------------------->
+              <div class="sub-card">
+                <div class="sub-card-contents p-4">
+                  <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                      style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                      style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+                  <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education
+                    theme</p>
+                  <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                    <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span
+                        class="pl-1">Advanced</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                        lectures</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                        hours</span></li>
+                  </ul>
+                  <button class="btn btn-primary btn-block py-3"><span
+                      class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+                  <div class="bottom-content clearfix mt-3">
+                    <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                          class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                    <p class="float-right Montserrat-bold"><span>Free</span></p>
+                  </div>
+                </div>
+              </div>
+              <!---------------------------end here hover card------------------------------->
+              <div class="course-card">
+                <div>
+                  <!-------------------image styling section-------------------->
+                  <div class="label-1">
+                    <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                      SPECIAL
+                    </span>
+                  </div>
+                  <img src="./assets/img/courses/photo-1475452779376-caebfb988090-272x161.jpeg" class="card-img-top"
+                    alt="...">
+                  <div class="progress" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="label-2">
+                        <span>100%
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+                <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms
+                </p>
+                <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+                <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+                  <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i
+                      class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2 hours</span></p>
+                  <p class="float-right  Montserrat-bold color-main">Free</p>
+                </div>
+              </div>
+            </div>
+            <!----------------------------------3rd card---------------------------------->
+            <div class="card-1 col-lg-3 col-md-5 col-sm-12">
+              <!-----------------card open on hover---------------------------->
+              <div class="sub-card">
+                <div class="sub-card-contents p-4">
+                  <div><img src="./assets/img/hover-course/demo-instructor.jpg" alt=""
+                      style="height:40px; border-radius: 50%;"><span class="img-content pl-2"
+                      style="color:rgb(184, 181, 181);">Demo Instructor</span></div>
+                  <p class="text-capitalize color-primary-2 new-h1  Montserrat-bold mt-2">basics of master education
+                    theme</p>
+                  <ul class="hover-content list-group list-group-horizontal font-header m-0 p-0">
+                    <li class="list-group-item"><i class="fa-regular fa-address-card"></i><span
+                        class="pl-1">Advanced</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-align-justify"></i><span class="pl-1">8
+                        lectures</span></li>
+                    <li class="list-group-item"><i class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2
+                        hours</span></li>
+                  </ul>
+                  <button class="btn btn-primary btn-block py-3"><span
+                      class="font-header  Montserrat-medium text-uppercase"> Preview this course</span></button>
+                  <div class="bottom-content clearfix mt-3">
+                    <p class="float-left" style="font-size: 22px;"><i class="fa-brands fa-gratipay"><span
+                          class=" Montserrat-medium font-header  "> Whishlist</span></i></p>
+                    <p class="float-right Montserrat-bold"><span>Free</span></p>
+                  </div>
+                </div>
+              </div>
+              <!-- -------------------------end here hover card----------------------------- -->
+              <div class="course-card">
+                <div>
+                  <!-- -----------------image styling section------------------ -->
+                  <div class="label-1">
+                    <span class="background-card-1 color-primary-3 font-topbar Montserrat-regular">
+                      SPECIAL
+                    </span>
+                  </div>
+                  <img src="./assets/img/courses/cathryn-lavery-67852-unsplash-272x161.jpg" class="card-img-top"
+                    alt="...">
+                  <div class="progress" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="label-2">
+                        <span>100%
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pb-0" style="border:1px solid rgb(203, 203, 207)">
+                <p class="card-text-1 font-courses-single-term" style="color:rgb(184, 181, 181);">Analysis of algorithms
+                </p>
+                <p class="card-text-2 Montserrat-bold color-main">Basics of MasterStudy Education Theme</p>
+                <div class="timings clearfix m-0 pt-3" style="border-top: 1px solid  rgb(177, 177, 180) ;">
+                  <p class="float-left font-header" style="color:rgb(146, 135, 135);"><i
+                      class="fa-solid fa-clock"></i><span class="card-inner-content pl-1">2 hours</span></p>
+                  <p class="float-right  Montserrat-bold color-main">Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------subscribtion box---------------------- -->
+    <div class="subscibtion background-main color-primary-3 container-fluid">
+      <div class="container px-0 d-flex justify-content-center align-items-start ">
+
+        <div class="col-lg-6 col-md-12 content">
+          <h1 class="font-header-h3 Montserrat-medium pb-2">Subscribe our newsletter</h1>
+          <p class="font-courses-h5 Montserrat-regular ">There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+        </div>
+
+        <div class="col-lg-6 col-md-12 content">
+          <h1 class="font-courses-h5  Montserrat-medium pb-2">YOUR E-MAIL ADDRESS</h1>
+          <div class="custom-file mt-2">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Enter Your Email</label>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- ------------------------------blog section------------------------------------ -->
+    <div class="blog">
+      <div class="container">
+        <span class="heading font-courses-h1  Montserrat-bold color-main">MASTERSTUDY BLOG</span>
+        <div class="short-margin ">
+          <i class="fas fa-angle-up"></i>
+        </div>
+        <div class="blog-content row">
+
+          <div class="col-4">
+
+            <div class="card">
+              <div class="blog-img">
+                <img src="./assets/img/blog/photo-1517520287167-4bbf64a00d66-370x193.jpeg" alt="">
+                <div class="overlay-img">
+                  <a href="#"><i class="fa-regular fa-plus fa-2x color-primary-3"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-2">
+
+                    <div class="t-d">
+                      <span class="date text-center color-primary-1">09</span>
+                      <span class="month text-center color-primary-1">AUG</span>
+                    </div>
+
+                  </div>
+                  <div class="col-10">
+                    <h1 class="color-primary-2 Montserrat-bold font-header-h3">Our main target is to “Developing
+                      Yourself as a Leader”</h1>
+                    <h2 class="color-primary-2 font-header  Montserrat-medium">The upcoming budget for the Chicago
+                      Public Schools will rely on $500 million in yet-to-be-enacted pension savings by Illinois, school
+                      officials said on Monday.</h2>
+                    <div class="short-separator"></div>
+                    <div class="tags">
+                      <h1 class="color-primary-5 font-topbar m-0 Montserrat-medium">Posted in: <span
+                          class="color-primary-4"><a href="#">advertisement</a></span></h1>
+                      <h2 class="color-primary-5  font-topbar Montserrat-medium">Tags: <span class="color-primary-4"><a
+                            href="#">developing,leader,target</a></span> </h2>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-4">
+
+            <div class="card">
+              <div class="blog-img">
+                <img src="./assets/img/blog/photo-1490376840453-5f616fbebe5b-370x193.jpeg" alt="">
+                <div class="overlay-img">
+                  <a href="#"><i class="fa-regular fa-plus fa-2x color-primary-3"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-2">
+
+                    <div class="t-d">
+                      <span class="date text-center color-primary-1">03</span>
+                      <span class="month text-center color-primary-1">SEP</span>
+                    </div>
+                    <div class="poster background-card-1  Montserrat-medium">Sticky Post</div>
+                  </div>
+                  <div class="col-10">
+                    <h1 class="color-primary-2 Montserrat-bold font-header-h3">Those Other College Expenses You Aren`t
+                      Thinking About</h1>
+                    <h2 class="color-primary-2 font-header  Montserrat-medium">Thousands of teenagers across the UK will
+                      have school lessons in mindfulness in an experiment designed to see if it can protect against
+                      mental illness.</h2>
+                    <div class="short-separator"></div>
+                    <div class="tags">
+                      <h1 class="color-primary-5 font-topbar m-0 Montserrat-medium">Posted in: <span
+                          class="color-primary-4"><a href="#">Hobbies</a></span></h1>
+                      <h2 class="color-primary-5  font-topbar Montserrat-medium">Tags: <span class="color-primary-4"><a
+                            href="#">developing,collage,teens</a></span> </h2>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-4">
+
+            <div class="card">
+              <div class="blog-img">
+                <img src="./assets/img/blog/cat_1-370x193.jpg" alt="">
+                <div class="overlay-img">
+                  <a href="#"><i class="fa-regular fa-plus fa-2x color-primary-3"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-2">
+
+                    <div class="t-d">
+                      <span class="date text-center color-primary-1">09</span>
+                      <span class="month text-center color-primary-1">AUG</span>
+                    </div>
+                    <div class="poster background-card-1  Montserrat-medium">Sticky Post</div>
+                  </div>
+                  <div class="col-10">
+                    <h1 class="color-primary-2 Montserrat-bold font-header-h3">Our main target is to “Developing
+                      Yourself as a Leader”</h1>
+                    <h2 class="color-primary-2 font-header  Montserrat-medium">The upcoming budget for the Chicago
+                      Public Schools will rely on $500 million in yet-to-be-enacted pension savings by Illinois, school
+                      officials said on Monday.</h2>
+                    <div class="short-separator"></div>
+                    <div class="tags">
+                      <h1 class="color-primary-5  font-topbar m-0 Montserrat-medium">Posted in: <span
+                          class="color-primary-4"><a href="#">advertisement</a></span></h1>
+                      <h2 class="color-primary-5   font-topbar Montserrat-medium">Tags: <span class="color-primary-4"><a
+                            href="#">developing,leader,target</a></span> </h2>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- _________________________________________________footer____________________________________________________
+  -->
+  <footer class="footer ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 first-sec">
+          <span class="color-primary-3 font-header-h3 text-uppercase  Montserrat-bold ">About</span>
+          <p class="color-primary-3 font-header mt-4 pb-2"><span class="color-primary-4">Masterstudy</span> is Education
+            WordPress theme featured by Learning Management System (LMS) for online education.
+            Developed by StylemixThemes.</p>
+          <p class="color-primary-3 font-header pb-3"> Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Morbi at
+            egestas magna.</p>
+          <button class="btn btn-outline-light">LEARNING NOW</button>
+        </div>
+        <div class="col-lg-3  col-md-6 sec-sec px-0">
+
+          <ul>
+           <li> <span class=" color-primary-3 font-header-h3 text-uppercase  Montserrat-bold">popular courses</span></li>
+            <li class="d-flex pt-4">
+              <img src="./assets/img/courses/cathryn-lavery-67852-unsplash-272x161.jpg" alt=""
+                style="width: 55px; height: 55px; margin-top: 5px;">
+              <div class="content text-capitalize ml-3">
+                <p class="color-primary-3 font-header Open-semi m-0"><a href="#">Basics of MasterStudy Education
+                    Theme</a></p>
+                <p class="color-primary-3 font-topbar  Open-Sans color-primary-5">BY DEMO INSTRUCTOR</p>
+              </div>
+            </li>
+            <li class="d-flex">
+              <img src="./assets/img/courses/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg" alt=""
+                style="width: 55px; height: 55px; margin-top: 5px;">
+              <div class="content text-capitalize ml-3">
+                <p class="color-primary-3 font-header Open-semi m-0"><a href="#">How to Work with Legendary RED
+                    cam...</a></p>
+                <p class="color-primary-3 font-topbar Open-Sans color-primary-5">BY DEMO INSTRUCTOR</p>
+              </div>
+            </li>
+            <li class="d-flex">
+              <img src="./assets/img/courses/jakob-owens-198234-unsplash-min-1-272x161.png" alt=""
+                style="width: 55px; height: 55px; margin-top: 5px;">
+              <div class="content text-capitalize ml-3">
+                <p class="color-primary-3 font-header Open-semi  m-0"><a href="#">How to Work with Legendary RED
+                    cam...</a></p>
+                <p class="color-primary-3 font-topbar  Open-Sans color-primary-5 ">BY DEMO INSTRUCTOR</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3  col-md-6 thrd-sec">
+          <ul class="color-primary-3 font-topbar Montserrat-medium  pt-3">
+            <li> <span class="color-primary-3 font-header-h3 text-uppercase  Montserrat-bold">Pages</span></li>
+            <li class="d-flex  pt-2" style="border-bottom:1px solid rgb(107, 104, 104);"><i
+                class="fa-solid fa-angle-right"></i><a href="#">BLOG</a></li>
+            <li class="d-flex  pt-2" style="border-bottom:1px solid rgb(107, 104, 104);"><i
+                class="fa-solid fa-angle-right"></i><a href="#">COURSES</a></li>
+            <li class="d-flex  pt-2" style="border-bottom:1px solid rgb(107, 104, 104);"><i
+                class="fa-solid fa-angle-right"></i><a href="#">HOME</a></li>
+            <li class="d-flex  pt-2" style="border-bottom:1px solid rgb(107, 104, 104);"><i
+                class="fa-solid fa-angle-right"></i><a href="#">MEMBERSHIP ACCOUNT</a></li>
+            <li class="d-flex  pt-2" style="border-bottom:1px solid rgb(107, 104, 104);"><i
+                class="fa-solid fa-angle-right"></i><a href="#">SHORTCODES</a></li>
+            <li class="d-flex  pt-2"><i class="fa-solid fa-angle-right"></i><a href="#">TOPOGRAPHY</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3  col-md-6 fourth-sec">
+          <span class="color-primary-3 font-header-h3 text-uppercase  Montserrat-bold"
+            style="padding-left: 2.2rem;">contact</span>
+
+          <div class="contents color-primary-3 Open-Sans font-courses-single-term">
+            <ul class="pt-3">
+              <li class="d-flex pb-1  pt-3"><i class="fa-solid fa-location-dot"></i><span>USA, Callifornia 20, First
+                  Avenue,Callifornia</span></li>
+              <li class="d-flex pb-1  pt-3"><i class="fa-solid fa-phone"></i><span>Tel: +1 212 458 300 32</span></li>
+              <li class="d-flex pb-1  pt-3"><i class="fa-solid fa-fax"></i><span>Fax: +1 212 375 24 14</span></li>
+              <li class="d-flex pb-1  pt-3"><i class="fa-solid fa-envelope"></i><a href="#">info@masterstudy.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
